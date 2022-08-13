@@ -1,0 +1,216 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    padding: 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.one,
+.two,
+.three,
+.four-foot {
+    height: 360px;
+    flex: auto;
+}
+
+.header {
+    flex: 0.001;
+    display: flex;
+    justify-content: space-around;
+    max-height: 50px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    color: rgb(175, 175, 175);
+    display: flex;
+    list-style-type: none;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    margin-right: 14px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.columnone {
+    margin-top: 75px;
+    max-width: 400px;
+    margin-left: 140px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.onetext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color:white;
+    padding: 10px;
+    border: none;
+    width: 120px;
+    border-radius: 10px;
+}
+
+
+.header,
+.one,
+.footer {
+    background-color: #1F2937;
+}
+
+.three {
+    background-color: #E5E7EB;
+}
+
+.murkami {
+    width: 400px;
+    height: auto;
+    margin-top: 75px;
+    margin-right: 140px;
+}
+
+.two {
+    text-align: center;
+}
+
+.artpieces {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    max-width: 200px;
+}
+
+.twotitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 32px;
+    margin-top: 20px;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockquote {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blockquote-text {
+    font-size: 36px;
+    font-family: 'Gelasio', serif;
+    font-style: italic;
+    margin: 0;
+    color: #1F2937;
+}
+
+.blockquote-text.blockquote-credits {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    align-self: flex-end;
+    color: #1F2937;
+    
+}
+
+.blockquote-credits::before {
+    content: "\2014\0020";
+}
+
+.four-foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+}
+
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 725px;
+    height: 50px;
+    padding: 32px 80px;
+}
+
+.boxtext {
+    color: white;
+}
+
+.text1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text2 {
+    color: rgba(255, 255, 255, 0.926);
+}
+
+button.boxbutton {
+    border-style: solid;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    flex: 0.5;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
